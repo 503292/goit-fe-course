@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+.header-navigation {
+    list-style: none;
+}
+
+.header-navigation a{
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    line-height: 16px;
+}
+.header-navigation a:hover {
+    color: #03a9f4
+}
+
+.content-list {
+    list-style: none;
+}
+
+.content-list-item h3 {
+    color: inherit;
+    line-height: 36px;
+
+}
+
+.buttom-item {
+    color: #b4ad9e;
+    line-height: 16px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0px;
+    border: 0px;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
+
