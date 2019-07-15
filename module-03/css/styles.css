@@ -1,57 +1,117 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
-    color: #626262;
-    font-size: 14px;
-    line-height: 24px;
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.header-navigation {
-    list-style: none;
+/* * {
+  outline: 1px solid red;
+} */
+
+/* NAVIGATION */
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 86px;
+  margin-bottom: 80px;
 }
 
-.header-navigation a{
-    font-weight: 300;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: inherit;
-    line-height: 16px;
-}
-.header-navigation a:hover {
-    color: #03a9f4
+.header ul {
+  padding: 0;
+  margin: 0;
 }
 
-.content-list {
-    list-style: none;
+.header li {
+  display: inline-block;
+  margin-left: 124px;
+  text-transform: uppercase;
 }
 
-.content-list-item h3 {
-    color: inherit;
-    line-height: 36px;
-
+.header a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-size: 14px;
+  color: #626262;
 }
 
-.buttom-item {
-    color: #b4ad9e;
-    line-height: 16px;
+.header a:hover {
+  color: #03a9f4;
+  transition: 0.5s;
+}
+
+/* BODY / ARTICLE */
+
+.body {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.article {
+  display: inline-block;
+  width: 448px;
+}
+
+.article img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.article span,
+h3,
+p {
+  margin-left: 14px;
+}
+
+.article span {
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: #b4ad9e;
+}
+
+.article h3 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 33px;
+  font-size: 30px;
+  color: #626262;
+}
+
+.article p {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
+
+/* FOOTER */
+
+footer {
+  max-width: 1200px;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+  padding: 22px 33px;
+  background-color: #fff;
+  border: 1px solid #626262;
+  margin-top: 55px;
+  margin-bottom: 70px;
 }
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
-    position: absolute;
-    
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0px;
-    border: 0px;
+  position: absolute;
 
-    white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0px;
+  border: 0px;
 
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
-
-
-
