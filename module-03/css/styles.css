@@ -65,6 +65,10 @@ main{
   margin-bottom: 30px;
 }
 
+.article h3,p {
+  margin: 0;
+}
+
 .article span {
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
