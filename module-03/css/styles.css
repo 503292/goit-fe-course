@@ -94,11 +94,14 @@ main{
 /* BUTTON */
 
 .load-button {
-  display: inline-block;
-  font-family: "Times New Roman", Times, serif;
+  display: block;
+  margin: 0 auto 30px auto;
   padding: 22px 33px;
+  font-family: "Times New Roman", Times, serif;
   background-color: #fff;
   border: 1px solid #626262;
+  
+  
 }
 
 /*VISUAL-HIDDEN h1, h2 */
