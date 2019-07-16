@@ -103,7 +103,7 @@ html {
 }
 
 .article-list-item h3,
-p {
+p, .load-button {
   color: #626262;
 }
 
@@ -120,6 +120,7 @@ span {
   margin: 0 auto 30px auto;
   padding: 22px 33px;
   font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
   background-color: #fff;
   border: 1px solid #626262;
 }
