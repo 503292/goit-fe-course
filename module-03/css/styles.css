@@ -9,7 +9,7 @@ html {
 }
 
 .wrapper {
-  width: 960px;
+  width: 900px;
   margin: 0 auto;
 }
 /* * {
@@ -19,10 +19,10 @@ html {
 /* HEADER */
 
 .header {
-  width: 960px;
+  width: 900px;
   margin: 0 auto;
-  padding-top: 86px;
-  margin-bottom: 80px;
+  padding-top: 76px;
+  margin-bottom: 106px;
 }
 
 .header ul {
@@ -38,7 +38,7 @@ html {
 }
 
 .header li:not(:last-child) {
-  margin-right: 60px;
+  margin-right: 100px;
 }
 
 .header a {
@@ -48,60 +48,69 @@ html {
   color: #626262;
 }
 
-.header a:hover {
+.header a:hover,
+.header a:focus {
   color: #03a9f4;
   transition: 0.5s;
 }
 
 /* MAIN / ARTICLE */
-main {
-  max-width: 960px;
+.body {
+}
+.article {
+  max-width: 900px;
   position: relative;
   margin: 0 auto;
-  padding-inline-start: 0;
-}
-
-.article {
-  display: inline-block;
-  width: 424px;
 }
 
 .article-list {
-  margin: 0;
+  list-style: none;
+  margin: 0 0 24px 0;
   padding: 0;
+  font-size: 0;
 }
 
-.article img {
+.article-list-item {
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+}
+
+.article-list-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.article-list-item img {
   display: block;
   margin: 0 auto 30px auto;
 }
 
-.article h3,
-p,
-span {
-  margin-bottom: 33px;
-  padding: 0 5px;
-}
-
-.article span {
+.article-list-item span {
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
   color: #b4ad9e;
 }
 
-.article h3 {
+.article-list-item h3 {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
 }
 
-.article h3,
+.article-list-item p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+.article-list-item h3,
 p {
   color: #626262;
 }
 
-.article p {
-  font-family: "Times New Roman", Times, serif;
+.article-list-item h3,
+p,
+span {
+  margin-bottom: 33px;
 }
 
 /* BUTTON */
