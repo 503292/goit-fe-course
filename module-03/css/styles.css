@@ -69,6 +69,10 @@ main{
   margin: 0;
 }
 
+.article h3 {
+  /* margin-bottom: 50px; */
+}
+
 .article span {
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
@@ -102,8 +106,7 @@ button {
   padding: 22px 33px;
   background-color: #fff;
   border: 1px solid #626262;
-  margin-top: 55px;
-  margin-bottom: 70px;
+
 }
 
 /*VISUAL-HIDDEN h1, h2 */
