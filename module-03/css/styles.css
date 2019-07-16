@@ -9,7 +9,7 @@
 /* HEADER */
 
 .header {
-  width: calc(900px - 4px);
+  width: 900px;
   margin: 0 auto;
   padding-top: 86px;
   margin-bottom: 80px;
@@ -65,8 +65,9 @@ main{
   margin-bottom: 30px;
 }
 
-.article h3,p, span {
+.article h3, p, span {
   margin-bottom: 33px;
+  padding:0 15px;
 }
 
 .article span {
