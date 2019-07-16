@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
 }
 * {
@@ -9,7 +9,7 @@
 /* HEADER */
 
 .header {
-  width: 900px;
+  width: 960px;
   margin: 0 auto;
   padding-top: 86px;
   margin-bottom: 80px;
@@ -45,7 +45,7 @@
 
 /* MAIN / ARTICLE */
 main{
-    max-width: 900px;
+    max-width: 960px;
     position: relative;
     margin: 0 auto;
     padding-inline-start: 0;
