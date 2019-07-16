@@ -61,6 +61,7 @@ main{
 h3,
 p {
   margin-left: 15px;
+
 }
 
 .article span {
@@ -80,6 +81,7 @@ p {
 .article p {
   font-family: "Times New Roman", Times, serif;
   color: #626262;
+  margin-right: 5px;
 }
 
 /* FOOTER */
