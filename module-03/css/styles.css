@@ -1,12 +1,12 @@
 .wrapper {
-  max-width: 100%;
+  max-width: 900px;
   margin: 0 auto;
 }
 /* * {
   outline: 1px solid red;
 } */
 
-/* NAVIGATION */
+/* HEADER */
 
 .header {
   width: 900px;
@@ -38,16 +38,17 @@
   transition: 0.5s;
 }
 
-/* BODY / ARTICLE */
-
-.body {
-  width: 900px;
-  margin: 0 auto;
+/* MAIN / ARTICLE */
+main{
+    max-width: 924px;
+    position: relative;
+    margin: 0 auto;
+    padding-inline-start: 0;
 }
 
 .article {
   display: inline-block;
-  width: 448px;
+  width: 440px ;
 }
 
 .article img {
@@ -59,7 +60,7 @@
 .article span,
 h3,
 p {
-  margin-left: 14px;
+  margin-left: 15px;
 }
 
 .article span {
@@ -98,6 +99,7 @@ button {
   margin-bottom: 70px;
 }
 
+/*VISUAL-HIDDEN h1, h2 */
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
