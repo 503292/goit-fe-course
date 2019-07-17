@@ -22,7 +22,7 @@ html {
   width: 900px;
   margin: 0 auto;
   padding-top: 76px;
-  margin-bottom: 106px;
+  margin-bottom: 100px;
 }
 
 .header ul {
@@ -55,8 +55,7 @@ html {
 }
 
 /* MAIN / ARTICLE */
-.body {
-}
+
 .article {
   max-width: 900px;
   position: relative;
@@ -103,14 +102,15 @@ html {
 }
 
 .article-list-item h3,
-p, .load-button {
-  color: #626262;
+p,
+span {
+  margin-bottom: 24px;
 }
 
 .article-list-item h3,
 p,
-span {
-  margin-bottom: 33px;
+.load-button {
+  color: #626262;
 }
 
 /* BUTTON */
