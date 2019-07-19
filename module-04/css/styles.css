@@ -1,224 +1,45 @@
+/* Для переопреділення  box-sizing */
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-*,
-*::before,
-::after {
+*, *::before, ::after {
   box-sizing: inherit;
+}
+/*  */
+* {
+  outline: 1px solid rgb(241, 100, 100);
 }
 
 .wrapper {
+
+}
+.conteiner {
   width: 1110px;
   margin: 0 auto;
 }
-* {
-  outline: 1px solid red;
+
+header {
+  background-color: gray;
 }
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+main {
+  background-color: gray;;
 }
 
 /* SITE HEADER */
-header {
-  width: 1110px;
-  margin: 0 auto;
-  padding: 40px 0; 
-}
-
-.logo {
-  float: left;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-  color: black;
-  margin: 0;
-  padding: 0;
-}
-
-.logo::first-letter {
-  font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    color: #1abc9c;
-    font-size: 30px;
-}
-
-.menu {
+.navigation-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.menu li {
-  float: right;
-}
 
-.menu,
-h1, h2, .catalog-list-item h3{
-  text-transform: uppercase;
-}
-.menu,
-p {
-  font-size: 14px;
-}
-
-/* MAIN / CATALOG*/
-
-main {
-  width: 1110;
-  margin: 0 auto;
-}
-
-.catalog-list {
-  margin: 0;
-  padding: 0;
-}
-
-.catalog-list-item {
-  float: left;
-  background: #1abc9c;
-  list-style: none;
-  width: 255px;
-}
-
-.catalog-list-item p {
-  font-weight: 900;
-}
-
-.catalog-list-item:not(:nth-child(4n)) {
-  margin-right: 30px;
-}
-.catalog-list-item:not(:nth-last-child(-n + 4)) {
-
-}
-
-/* ARTICLE */
-.article
-
-.article-list {
-  margin: 0;
-  padding: 0;
-}
-.article-list-item {
-  float: left;
-  background: #1abc9c;
-  list-style: none;
-  width: 346px;
-}
-
-.article-list-item:not(:nth-child(3n)) {
-  margin-right: 36px;
-}
-.article-list-item:not(:nth-last-child(-n + 3)) {
-  margin-buttom: 150px;
-}
-
-/* .header {
-  width: 900px;
-  margin: 0 auto;
-  padding-top: 76px;
-  margin-bottom: 100px;
-}
-
-.header ul {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  font-size: 0;
-}
-
-.header li {
+.navigation-list li {
   display: inline-block;
-  text-transform: uppercase;
+
 }
 
-.header li:not(:last-child) {
-  margin-right: 100px;
-}
 
-.header a {
-  font-family: "Times New Roman", Times, serif;
-  text-decoration: none;
-  font-size: 14px;
-  color: #626262;
-}
-
-.header a:hover,
-.header a:focus {
-  color: #03a9f4;
-  transition: 0.5s;
-}
-
-/* MAIN / ARTICLE */
-
-/* .article {
-  max-width: 900px;
-  position: relative;
-  margin: 0 auto;
-}
-
-.article-list {
-  list-style: none;
-  margin: 0 0 24px 0;
-  padding: 0;
-  font-size: 0;
-}
-
-.article-list-item {
-  display: inline-block;
-  width: 420px;
-  margin-right: 60px;
-} */
-
-/* .article-list-item:nth-child(2n) {
-  margin-right: 0;
-}
-
-.article-list-item img {
-  display: block;
-  margin: 0 auto 30px auto;
-} */
-
-/* .article-list-item span {
-  text-transform: uppercase;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
-  color: #b4ad9e;
-}
-
-.article-list-item h3 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-}
-
-.article-list-item p {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
-} */
-
-/* .article-list-item h3,
-p,
-span {
-  margin-bottom: 24px;
-}
-
-.article-list-item h3,
-p,
-.load-button {
-  color: #626262;
-} */
-
-/* BUTTON */
-
-/* .load-button {
-  display: block;
-  margin: 0 auto 30px auto;
-  padding: 22px 33px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  background-color: #fff;
-  border: 1px solid #626262;
-}  */
 
 /*VISUAL-HIDDEN h1, h2 */
 .visually-hidden:not(:focus):not(:active),
@@ -245,4 +66,3 @@ input[type="radio"].visually-hidden {
   content: "";
   clear: both;
 }
-
