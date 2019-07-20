@@ -34,14 +34,14 @@ input[type="radio"].visually-hidden {
 }
 
 /* CLEAR FIX */
-/* .clearfix::after {
+.clearfix::after {
   display: table;
   content: "";
   clear: both;
-} */
+}
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", AdobeInvisFont, MyriadPro-Regular;
   color: darkgrey;
   font-size: 14px;
   line-height: 20px;
@@ -101,6 +101,23 @@ img a:focus {
 }
 
 /* MAIN / Features */
+.main-title{
+  font-family: "Roboto", AdobeInvisFont, MyriadPro-Regular;
+  font-size: 48px;
+  color: rgba(81, 81, 81, 255);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.main-title:after{
+  content: "";
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: rgba(26, 188, 156, 255);
+  margin: 30px auto 0;
+}
 
 main {
   width: 1110px;
@@ -120,12 +137,14 @@ main {
   display: inline-block;
   width: 255px;
 }
+
 .features-list-item img {
   display: block;
+  background-color: #e9f0fd;
 }
 .features-list-item h3 {
   float: left;
-  width: 202px;
+  width: 200px;
   line-height: 40px;
   font-size: 18px;
   font-weight: 400;
@@ -141,11 +160,18 @@ main {
   padding: 0 12px;
   background-color: #8c8c8c;
 }
+.features-list-item a {
+  color: #e9f0fd;
+}
 .features-list-item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
 
 /* MAIN / Article */
+.article h2 {
+  font-family: "Roboto", AdobeInvisFont, MyriadPro-Regular;
+
+} 
 
 .article-list {
   margin: 0;
@@ -168,21 +194,51 @@ main {
   font-size: 14px;
   padding: 12px 0;
 }
-.article-list-item button {
+.article-list-item:not(:nth-child(3n)) {
+  margin-right: 36px;
+}
+
+/* BUTTON */
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+
+}
+
+button a {
   display: block;
   font-size: 16px;
   padding: 12px 15px;
-  background-color: aqua;
+  background-color: rgba(26, 188, 156, 255);
   color: #ffffff;
   width: 160px;
   height: 50px;
+  text-decoration: none;
+  border-radius: 3px 3px 3px 3px;
 }
-.article-list-item h3,
-p,
-button {
-  margin: 0;
+button .read-more {
+  line-height: 28px;
 }
 
-.article-list-item:not(:nth-child(3n)) {
-  margin-right: 36px;
+.article-list-item a:hover,
+.news-button:focus{
+  background-color: rgb(91, 243, 192);
+}
+
+
+.subtitle{
+  font-family: "Open Sans", AdobeInvisFont, MyriadPro-Regular;
+  font-size: 18px;
+  color: rgba(85, 82, 82, 255);
+  font-weight: 600;
+}
+
+.subtitle:after{
+  content: "";
+  display: block;
+  width: 136px;
+  height: 3px;
+  background-color: rgba(26, 188, 156, 255);
+  margin-top: 11px;
 }
