@@ -82,7 +82,6 @@ header img {
   display: inline-block;
 }
 
-
 .navigation-list a {
   color: black;
   font-weight: 700;
@@ -129,10 +128,10 @@ main {
   width: 202px;
   line-height: 40px;
   font-size: 18px;
+  font-weight: 400;
   margin: 0;
   padding: 0 12px;
   background-color: #323232;
-  font-weight: 400;
 }
 .features-list-item p {
   float: right;
@@ -147,3 +146,43 @@ main {
 }
 
 /* MAIN / Article */
+
+.article-list {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.article-list-item {
+  display: inline-block;
+  width: 346px;
+}
+.article-list-item img {
+  display: block;
+}
+.article-list-item h3 {
+  font-size: 18px;
+  padding: 12px 0;
+}
+.article-list-item p {
+  font-size: 14px;
+  padding: 12px 0;
+}
+.article-list-item button {
+  display: block;
+  font-size: 16px;
+  padding: 12px 15px;
+  background-color: aqua;
+  color: #ffffff;
+  width: 160px;
+  height: 50px;
+}
+.article-list-item h3,
+p,
+button {
+  margin: 0;
+}
+
+.article-list-item:not(:nth-child(3n)) {
+  margin-right: 36px;
+}
