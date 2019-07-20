@@ -8,8 +8,19 @@ html {
   box-sizing: inherit;
 }
 /*  */
-* {
+/* * {
   outline: 1px solid rgb(241, 100, 100);
+} */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: darkgrey;
+  font-size: 14px;
+  line-height: 20px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; 
 }
 
 .wrapper {
@@ -20,24 +31,56 @@ html {
   margin: 0 auto;
 }
 
-header {
+.header {
   background-color: gray;
 }
+
 main {
   background-color: gray;;
 }
 
 /* SITE HEADER */
+.page-nav {
+  padding: 36px 0;
+}
+
+.site-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .navigation-list {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1024px;
   margin: 0;
   padding: 0;
   list-style: none;
+  font-size: 14px;
+  text-align: right;
 }
-
 .navigation-list li {
   display: inline-block;
-
 }
+
+.navigation-list li:not(:last-child) {
+  margin-right: 30px;
+  /* padding: 0 15px; треба попробувати варіант */
+}
+
+.navigation-list a {
+  color: aqua;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus {
+  color: red;
+}
+
 
 
 
@@ -61,8 +104,8 @@ input[type="radio"].visually-hidden {
 }
 
 /* CLEAR FIX */
-.clearfix::after {
+/* .clearfix::after {
   display: table;
   content: "";
   clear: both;
-}
+} */
