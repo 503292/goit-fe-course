@@ -167,6 +167,19 @@ main {
   margin-right: 30px;
 }
 
+/* product-link */
+.product-link{
+  text-decoration: none;
+}
+
+.product-link:hover .product-name{
+  background-color: rgba(26, 188, 156, 255);
+}
+
+.product-link:hover .product-price{
+  background-color: rgb(35, 223, 185);
+}
+
 /* MAIN / Article */
 .article h2 {
   font-family: "Roboto", AdobeInvisFont, MyriadPro-Regular;
@@ -203,7 +216,6 @@ button {
   margin: 0;
   padding: 0;
   border: none;
-
 }
 
 button a {
