@@ -60,26 +60,25 @@ header img {
 
 /* SITE HEADER */
 .page-nav {
-  padding: 36px 0;
+  padding: 36px 0 0 0;
+  margin-bottom: 100px;
 }
 
 .site-logo {
   display: inline-block;
-  vertical-align: middle;
+
 }
 
 .navigation-list {
-  display: inline-block;
-  vertical-align: middle;
-  width: 1024px;
+  float: right;
+  width: 415px;
   margin: 0;
   padding: 0;
   list-style: none;
   font-size: 14px;
-  text-align: right;
 }
 .navigation-list li {
-  display: inline-block;
+  float: left;
 }
 
 .navigation-list a {
@@ -104,10 +103,12 @@ img a:focus {
 .main-title{
   font-family: "Roboto", AdobeInvisFont, MyriadPro-Regular;
   font-size: 48px;
+  line-height: 1.2;
   color: rgba(81, 81, 81, 255);
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
+  margin: 0 auto 30px 0;
 }
 
 .main-title:after{
@@ -116,25 +117,27 @@ img a:focus {
   width: 164px;
   height: 7px;
   background-color: rgba(26, 188, 156, 255);
-  margin: 30px auto 0;
+  margin: 30px auto 92px;
 }
 
 main {
   width: 1110px;
+}
+.features {
+  margin-bottom: 100px;
 }
 
 .features-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 0;
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .features-list-item {
-  display: inline-block;
+  float: left;
   width: 255px;
 }
 
@@ -183,17 +186,17 @@ main {
 /* MAIN / Article */
 .article h2 {
   font-family: "Roboto", AdobeInvisFont, MyriadPro-Regular;
-
 } 
 
 .article-list {
+  list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 0;
+
 }
 
 .article-list-item {
-  display: inline-block;
+  float: left;
   width: 346px;
 }
 .article-list-item img {
@@ -213,13 +216,6 @@ main {
 
 /* BUTTON */
 button {
-  margin: 0;
-  padding: 0;
-  border: none;
-  line-height: 28px;
-}
-
-button a {
   display: block;
   font-size: 16px;
   padding: 12px 15px;
@@ -229,13 +225,14 @@ button a {
   height: 50px;
   text-decoration: none;
   border-radius: 3px 3px 3px 3px;
+  margin: 0;
+  border: none;
+  line-height: 28px;
 }
 
-.article-list-item a:hover,
-.news-button:focus{
+.read-button:hover {
   background-color: rgb(91, 243, 192);
 }
-
 
 .subtitle{
   font-family: "Open Sans", AdobeInvisFont, MyriadPro-Regular;
