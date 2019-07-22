@@ -216,6 +216,7 @@ button {
   margin: 0;
   padding: 0;
   border: none;
+  line-height: 28px;
 }
 
 button a {
@@ -228,9 +229,6 @@ button a {
   height: 50px;
   text-decoration: none;
   border-radius: 3px 3px 3px 3px;
-}
-button .read-more {
-  line-height: 28px;
 }
 
 .article-list-item a:hover,
