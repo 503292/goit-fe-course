@@ -238,6 +238,9 @@ img {
 }
 
 /* features section */
+.features {
+  padding-bottom: 98px;
+}
 
 .features-list {
   list-style: none;
