@@ -45,6 +45,7 @@ body {
   color: darkgrey;
   font-size: 14px;
   line-height: 20px;
+  margin: 0;
 }
 .conteiner {
   width: 1110px;
@@ -60,8 +61,7 @@ header img {
 
 /* SITE HEADER */
 .page-nav {
-  padding: 36px 0 0 0;
-  margin-bottom: 100px;
+  padding: 36px 0 100px 0;
 }
 
 .site-logo {
@@ -82,6 +82,7 @@ header img {
 }
 
 .navigation-list a {
+  display: block;
   color: black;
   font-weight: 700;
   text-transform: uppercase;
@@ -117,14 +118,14 @@ img a:focus {
   width: 164px;
   height: 7px;
   background-color: rgba(26, 188, 156, 255);
-  margin: 30px auto 92px;
+  margin: 0 auto 92px;
 }
 
 main {
   width: 1110px;
 }
 .features {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 .features-list {
@@ -137,6 +138,7 @@ main {
 }
 
 .features-list-item {
+  display: block;
   float: left;
   width: 255px;
 }
@@ -152,7 +154,7 @@ main {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
-  padding: 0 12px;
+  padding: 0 0 0 12px; /*  Олексій порадив лишити правий відступ */
   background-color: #323232;
 }
 .features-list-item p {
@@ -160,12 +162,18 @@ main {
   line-height: 40px;
   font-size: 18px;
   margin: 0;
-  padding: 0 12px;
+  text-align: center;
+  width: 55px;
   background-color: #8c8c8c;
 }
 .features-list-item a {
+  display: block;
   color: #e9f0fd;
 }
+.features-list-item:nth-child(-n + 4){
+  margin-bottom: 30px;
+}
+
 .features-list-item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
@@ -215,10 +223,10 @@ main {
 }
 
 /* BUTTON */
-button {
+.read-button {
   display: block;
   font-size: 16px;
-  padding: 12px 15px;
+  padding: 10px;
   background-color: rgba(26, 188, 156, 255);
   color: #ffffff;
   width: 160px;
@@ -228,6 +236,7 @@ button {
   margin: 0;
   border: none;
   line-height: 28px;
+  text-align: center;
 }
 
 .read-button:hover {
