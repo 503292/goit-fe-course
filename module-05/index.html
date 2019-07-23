@@ -41,24 +41,34 @@
       </nav>
     </header>
     <!-- --PRODUCTS--  -->
-    <main class="container">
+    <main>
       <section class="centre">
-        <div class="card">
-        <div class="center-overlay"></div>
-        <div class="centre-info">
-          <img
-            src="img/front-foto.jpg"
-            alt="4 girls"
-            class="centre-foto"
-            width="1600"
-            height="600"
-          />
-          <h2 class="main-title-top">Affordable paris tours</h2>
-          <p>City tours / tour tickets / tour guides</p>
+        <div class="container">
+          <div class="slider">
+            <button class="slider-ctrl slider-ctrl-prev"></button>
+            <button class="slider-ctrl slider-ctrl-next"></button>
+            <ul class="slides">
+              <li class="slides-item">
+                <div class="slides-desc">
+                  <h2 class="slides-title">Affordable paris tours</h2>
+                  <p class="slides-text">
+                    City tours / tour tickets / tour guides
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="slider-pagination">
+              <span class="slider-pagination-item"></span>
+              <span
+                class="slider-pagination-item slider-pagination-active"
+              ></span>
+              <span class="slider-pagination-item"></span>
+            </div>
+          </div>
         </div>
-      </div>
       </section>
-      <section class="features">
+      <section class="features container">
         <h2 class="main-title-buttom">New Collection</h2>
         <ul class="features-list clearfix">
           <li class="features-list-item">
@@ -113,8 +123,10 @@
         </ul>
       </section>
     </main>
-    <footer class="container">
-      <p>All Rights Reserved © Dokan | <span>Designed ThemenGraph</span></p>
+    <footer>
+      <div class="container">
+        <p>All Rights Reserved © Dokan | <span>Designed ThemenGraph</span></p>
+      </div>
     </footer>
   </body>
 </html>
