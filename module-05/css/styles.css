@@ -201,10 +201,13 @@ img {
   font-weight: normal;
 }
 .slides-title {
+  margin: 0;
   font-size: 60px;
   letter-spacing: -1px;
 }
 .slides-text {
+  padding-top: 50px;
+  margin: 0;
   font-size: 24px;
 }
 
