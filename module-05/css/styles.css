@@ -100,9 +100,7 @@ img a:focus {
 }
 
 /* MAIN */
-main {
-  background-color: #e9f0fd;
-}
+
 
 /* Centre section */
 img {
@@ -127,7 +125,6 @@ img {
   position: relative;
   height: 600px;
   margin: 0 auto;
-  margin-bottom: 100px;
 }
 
 .slider-ctrl {
@@ -219,7 +216,8 @@ img {
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
-  margin: 0 auto 30px 0;
+  margin: 0 auto ;
+  padding-bottom: 80px;
 }
 
 .main-title-buttom:after {
@@ -228,13 +226,14 @@ img {
   width: 164px;
   height: 7px;
   background-color: rgba(26, 188, 156, 255);
-  margin: 32px auto 92px;
+  margin: 0 auto ;
   
 }
 
 /* features section */
 .features {
-  padding-bottom: 98px;
+  padding: 98px 0;
+  background-color: #e9f0fd;
 }
 
 .features-list {
