@@ -255,6 +255,7 @@ img {
   display: block;
   float: left;
   width: 255px;
+  border: 1px solid black;
 }
 
 .features-list-item img {
@@ -308,8 +309,8 @@ footer {
   background-color: #323232;
   height: 88px;
   text-align: center;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
 footer span {
@@ -318,6 +319,7 @@ footer span {
 footer span, p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  padding: 35px 0;
   
 }
 
