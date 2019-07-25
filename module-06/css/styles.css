@@ -47,8 +47,8 @@ img {
   height: auto;
 }
 
-.container {
-  width: 550px; /* must 1200*/
+.wrapper {
+  width: 1200px; /* must 1200*/
   margin: 0 auto;
 }
 
@@ -57,10 +57,6 @@ img {
   display: table;
   content: "";
   clear: both;
-}
-
-.flex {
-  display: flex;
 }
 
 ul {
@@ -74,9 +70,10 @@ ul {
 
 header {
   background-color: blanchedalmond;
-  
+  padding-bottom: 55px;
 }
 .navbar {
+  display: flex;
   outline: 1px solid red;
   justify-content: space-between;
   align-items: center;
@@ -93,20 +90,104 @@ header {
   color: #95e1d3;
   /* border-bottom: 3px solid transparent; */
 }
-.ul-navigations {
+.ul-navigation {
+  display: flex;
   min-width: 490px;
 }
 
-.ul-navigations a {
+.li-navigation {
   font-weight: bold;
   font-size: 14px;
   color: #95e1d3;
   text-transform: uppercase;
   padding: 0 15px;
 }
-.ul-navigations a:hover,
-.ul-navigations a:focus {
+.ul-navigation a:hover,
+.ul-navigation a:focus {
   color: red;
   border-bottom: 3px solid red;
+}
 
+/* MAIN */
+main {
+}
+
+/* SECTIN - services / services-title */
+
+.service {
+  padding-top: 55px;
+}
+
+.service-title p {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  line-height: 2;
+  margin: 0;
+}
+.service-title h2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.service .service-title {
+  text-align: center;
+}
+.service-title::after {
+  content: "";
+  display: block;
+  margin: 22px auto 0 auto;
+  height: 3px;
+  width: 60px;
+  background: #f38181;
+}
+
+/*ul - services */
+.ul-service {
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 25px 0 0 0;
+  
+}
+.li-service {
+  flex-basis: 370px;
+  padding-left: 94px;
+  background-repeat: no-repeat;
+  background-position: 30px top;
+}
+
+.li-service h3 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 0 18px 0;
+}
+.li-service{
+
+}
+
+.clock-icon {
+  background-image: url(../img/header/icon/1-photography-clock.png);
+}
+.web-design-icon {
+  background-image: url(../img/header/icon/2-web-design.png);
+}
+.creativity-icon {
+  background-image: url(../img/header/icon/3-creativity.png);
+}
+.seo-icon {
+  background-image: url(../img/header/icon/4-seo.png);
+}
+.home-icon {
+  background-image: url(../img/header/icon/5-home.png);
+}
+.digital-icon {
+  background-image: url(../img/header/icon/6-digital.png);
 }
