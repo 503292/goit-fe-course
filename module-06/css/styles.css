@@ -63,7 +63,6 @@ ul {
   list-style: none;
 }
 a {
-  color: #f38181;
   text-decoration: none;
 }
 /* ---------------------------------------
@@ -81,35 +80,32 @@ header {
   align-items: center;
 }
 
-.navbar a {
-  text-decoration: none;
-}
-
 .site-logo-link {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   font-size: 30px;
   color: #95e1d3;
-  /* border-bottom: 3px solid transparent; */
 }
 .ul-navigation {
   display: flex;
   min-width: 490px;
 }
-
-.li-navigation {
-  font-weight: bold;
-  font-size: 14px;
-  color: #95e1d3;
-  text-transform: uppercase;
-  padding: 0 15px;
-}
 .ul-navigation a:hover,
 .ul-navigation a:focus {
   color: #f38181;
   border-bottom: 3px solid #f38181;;
-  transition: all 300ms;
+  transition: all 200ms;
 }
+
+.li-navigation {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #95e1d3;
+  text-transform: uppercase;
+  padding: 20px 15px 10px;
+}
+
 
 /* MAIN */
 main {
@@ -121,28 +117,28 @@ main {
   padding-top: 55px;
 }
 
-.service-title p {
+.section-title p {
   font-family: "Kaushan Script", cursive;
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.2;
   margin: 0;
 }
-.service-title h2 {
+.section-title h2 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 30px;
-  line-height: 2;
+  line-height: 3;
   margin: 0;
   padding: 0;
 }
 
-.service-title {
+.section-title {
   text-align: center;
 }
-.service-title::after {
+.section-title::after {
   content: "";
   display: block;
-  margin: 22px auto 0 auto;
+  margin: 0 auto ;
   height: 3px;
   width: 60px;
   background: #f38181;
@@ -150,12 +146,12 @@ main {
 
 /*ul - services */
 .ul-service {
-  min-height: 350px;
+  min-height: 400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0;
-  padding: 25px 0 0 0;
+  padding: 80px 0 0 0;
 }
 .li-service {
   flex-basis: 370px;
@@ -202,7 +198,7 @@ main {
   background-image: url(../img/header/icon/6-digital.png);
 }
 
-.service-info {
+.team-info {
   text-align: center;
   width: 960px;
   padding: 40px 0 90px 0;
@@ -218,6 +214,7 @@ main {
   padding-top: 46px;
   padding-bottom: 84px;
 }
+
 .ul-team {
   display: flex;
   margin: 0;
@@ -229,6 +226,8 @@ main {
 .li-team {
   flex-basis: 378px;
 }
+
+
 .img-wrapper {
   position: relative;
   transition: all 300ms;
@@ -244,15 +243,13 @@ main {
   transition: all 300ms;
   opacity: 0;
 }
-
+.li-team:hover .img-wrapper {
+  transform: translate(-10px, -10px);
+}
 .li-team:hover .img-owerlay {
   opacity: 1;
   box-shadow: 10px 10px #95e1d3;
   transition: all 300ms;
-}
-
-.li-team:hover .img-wrapper {
-  transform: translate(-10px, -10px);
 }
 
 .ul-social {
@@ -265,10 +262,6 @@ main {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.li-social:not(:last-child){
-  margin-right: 1px;
 }
 
 .btn-social {
@@ -296,6 +289,14 @@ main {
 .instagram {
   background-image: url(../img/header/icon/instagram.png);
 }
+
+.li-social:not(:last-child){
+  margin-right: 1px;
+}
+
+
+
+/* Worker name and position */
 
 .worker-name {
   margin: 0;
@@ -330,6 +331,9 @@ main {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
+}
+.signature a {
+  color: #f38181;
 }
 .signature a:hover,
 .signature a:focus {
