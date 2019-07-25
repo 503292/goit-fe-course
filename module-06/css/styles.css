@@ -1,3 +1,5 @@
+/* ------  ЗАГАЛЬНИХ настройок ----- */
+
 /* * {
   outline: 1px solid rgb(241, 100, 100);
 } */
@@ -33,9 +35,9 @@ input[type="radio"].visually-hidden {
 }
 
 body {
-  font-family: 'Kaushan Script', cursive;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Kaushan Script", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 
@@ -46,18 +48,65 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 550px; /* must 1200*/
   margin: 0 auto;
 }
 
-/* CLEAR FIX  - тільки для Float*/ 
+/* CLEAR FIX  - тільки для Float*/
 .clearfix::after {
   display: table;
   content: "";
   clear: both;
 }
 
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
 /* ---------------------------------------
  закінчення ЗАГАЛЬНИХ настройок 
 --------------------------------------- */
 
+/* HEADER */
+
+header {
+  background-color: blanchedalmond;
+  
+}
+.navbar {
+  outline: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.site-logo-link {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #95e1d3;
+  /* border-bottom: 3px solid transparent; */
+}
+.ul-navigations {
+  min-width: 490px;
+}
+
+.ul-navigations a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #95e1d3;
+  text-transform: uppercase;
+  padding: 0 15px;
+}
+.ul-navigations a:hover,
+.ul-navigations a:focus {
+  color: red;
+  border-bottom: 3px solid red;
+
+}
