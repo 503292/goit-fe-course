@@ -115,7 +115,7 @@ img {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-    url("/img/front-foto.jpg");
+    url("../img/front-foto.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,13 +144,13 @@ img {
 }
 .slider-ctrl-prev {
   left: 0;
-  background-image: url(/img/icon/left-arrow-icon.png);
+  background-image: url(../img/icon/left-arrow-icon.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .slider-ctrl-next {
   right: 0;
-  background-image: url(/img/icon/right-arrow-icon.png);
+  background-image: url(../img/icon/right-arrow-icon.png);
   background-position: center;
   background-repeat: no-repeat;
 }
