@@ -108,6 +108,7 @@ header {
 .ul-navigation a:focus {
   color: #f38181;
   border-bottom: 3px solid #f38181;;
+  transition: all 300ms;
 }
 
 /* MAIN */
@@ -230,6 +231,7 @@ main {
 }
 .img-wrapper {
   position: relative;
+  transition: all 300ms;
 }
 .img-owerlay {
   position: absolute;
@@ -239,19 +241,23 @@ main {
     rgba(243, 129, 129, 0.9) 0%,
     rgba(252, 227, 138, 0.9) 100%
   );
+  transition: all 300ms;
   opacity: 0;
 }
 
-.img-owerlay:hover,
-.img-owerlay:focus {
+.li-team:hover .img-owerlay {
   opacity: 1;
+  box-shadow: 10px 10px #95e1d3;
+  transition: all 300ms;
+}
+
+.li-team:hover .img-wrapper {
   transform: translate(-10px, -10px);
-  box-shadow: 10px 10px 0 0 #95e1d3;
 }
 
 .ul-social {
   display: flex;
-  width: calc(100% + 1px);
+  width: 100%;
   height: 100%;
   flex-wrap: wrap;
   justify-content: center;
@@ -260,12 +266,11 @@ main {
   padding: 0;
   list-style: none;
 }
-.li-social {
+
+.li-social:not(:last-child){
   margin-right: 1px;
 }
-.li-social:last-child {
-  margin-right: 0px;
-}
+
 .btn-social {
   display: block;
   width: 56px;
@@ -363,5 +368,6 @@ main {
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: #76d3c2;
+  background-color: #f38181;
+  transition: all 300ms;
 }
