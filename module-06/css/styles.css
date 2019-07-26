@@ -230,7 +230,7 @@ main {
 
 .img-wrapper {
   position: relative;
-  transition: all 300ms;
+  transition: all 300ms linear;
 }
 .img-owerlay {
   position: absolute;
@@ -240,7 +240,7 @@ main {
     rgba(243, 129, 129, 0.9) 0%,
     rgba(252, 227, 138, 0.9) 100%
   );
-  transition: all 300ms;
+  transition: all 300ms ease-in;
   opacity: 0;
 }
 .li-team:hover .img-wrapper {
