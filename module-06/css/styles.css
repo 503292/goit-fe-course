@@ -89,6 +89,8 @@ header {
 .ul-navigation {
   display: flex;
   min-width: 490px;
+  margin: 0;
+  padding: 0;
 }
 .ul-navigation a:hover,
 .ul-navigation a:focus {
@@ -322,15 +324,17 @@ main {
 
 .footer-wrap {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   border-top: 1px solid #e5e5e5;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
+  height: 64px;
 }
 .signature {
-  padding-top: 8px;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
+  margin: 0;
 }
 .signature a {
   color: #f38181;
@@ -342,7 +346,7 @@ main {
 
 .subscribe-form {
   display: flex;
-  padding-top: 10px;
+
 }
 .mail-input {
   height: 40px;
