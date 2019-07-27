@@ -118,11 +118,11 @@ img {
 }
 
 .wrapper {
-  width: 1200px; /* must 1200*/
+  width: 940px;
   margin: 0 auto;
 }
 
-/* CLEAR FIX  - тільки для Float*/
+CLEAR FIX  - тільки для Float
 .clearfix::after {
   display: table;
   content: "";
@@ -140,8 +140,142 @@ a {
 --------------------------------------- */
 
 /* HEADER */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: cornflowerblue; */
+}
 
-header {
+.site-logo-link {
+  /* animation: logo-rotate 3s;
+  animation-iteration-count: infinite; */
+}
+
+
+/* @keyframes logo-rotate {
+  from {
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.ul-navigation {
+  display: flex;
+  min-width: 480px;
+  margin: 0;
+  padding: 0;
+}
+
+.ul-navigation a:hover,
+.ul-navigation a:focus {
+  color: #fed136;
+  transition: all 200ms;
+
+}
+
+.li-navigation {
+  display: flex;
+  min-height: 115px;
+  justify-content: space-between;
+  color: black;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 45px 20px;
+  
+}
+
+/* MAIN - section-services */
+
+.services-title {
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+text-align: center;
+font-size: 40px;
+text-transform: uppercase;
+line-height: 2;
+margin: 0;
+padding: 0;
+}
+
+.services-info {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  margin: 0;
+  padding: 0 0 20px 0;
+  color: #777777;
+}
+  /* CARD */
+.ul-service {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.li-service {
+  text-align: center;
+  flex-basis: 280px;
+}
+.li-service h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2;
+  margin: 0;
+  padding: 50px 0 0 0;
+}
+
+.li-service p {
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.5;
+  color: #777777;
+  margin: 0;
+  padding-top: 10px;
+}
+
+
+/* ICON */
+
+/* circle-border for icon */
+.li-service::before {
+  content: "";
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  border: 4px solid #fed136;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.all-icon {
+  display: block;
+  width: 56px;
+  height: 74px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.e-commerce-icon {
+  background-image: url(../img/Icon-Basket.png);
+}
+.responsive-web-icon {
+  background-image: url(../img/Icon-Laptop.png);
+}
+.web-security-icon {
+  background-image: url(../img/Icon-Locked.png);
+}
+
+
+/* header {
   padding-bottom: 55px;
 }
 .navbar {
@@ -179,20 +313,22 @@ header {
 }
 
 
-/* MAIN */
+MAIN
 main {
 }
 
-/* SECTIN - services / services-title */
+SECTIN - services / services-title
 
 .service {
   padding-top: 55px;
 }
 
 .section-title p {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Crimson Text", serif;
   font-size: 24px;
   line-height: 1.2;
+  font-weight: 400;
+  font-style: italic;
   margin: 0;
 }
 .section-title h2 {
@@ -214,10 +350,10 @@ main {
   height: 3px;
   width: 60px;
   background: #f38181;
-}
+} */
 
 /*ul - services */
-.ul-service {
+/* .ul-service {
   min-height: 400px;
   display: flex;
   flex-wrap: wrap;
@@ -368,7 +504,7 @@ main {
 
 
 
-/* Worker name and position */
+Worker name and position
 
 .worker-name {
   margin: 0;
@@ -446,4 +582,4 @@ main {
 .subscribe-btn:focus {
   background-color: #f38181;
   transition: all 300ms;
-}
+} */
