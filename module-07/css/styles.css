@@ -197,8 +197,7 @@ a {
 
 /* MAIN - section: services */
 .services {
-  /* display: block;s */
-  padding: 0 0 100px 0;
+
 }
 
 .section-title {
@@ -229,11 +228,11 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0;
-  padding: 77px 0 0 0;
+  padding: 35px 0 0 0;
 }
 .li-service {
   text-align: center;
-  flex-basis: 280px;
+  flex-basis: 290px;
 }
 .li-service h3 {
   font-family: "Montserrat", sans-serif;
@@ -241,7 +240,7 @@ a {
   font-weight: 600;
   line-height: 2;
   margin: 0;
-  padding: 50px 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .li-service p {
@@ -284,9 +283,10 @@ a {
 
 .wrap-contact {
   background-image: url(../img/Map.png);
-  padding: 100px 0 100px 0;
+  padding: 50px 0 100px 0;
   background-repeat: no-repeat;
   background-size: cover;
+  /* -o-fit-object: cover; */
   /* min-height: 676px; */
 }
 .white {
