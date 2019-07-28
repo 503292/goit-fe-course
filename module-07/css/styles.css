@@ -1,66 +1,71 @@
 /* montserrat-regular - latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/montserrat-v14-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Montserrat Regular'), local('Montserrat-Regular'),
-       url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+  src: url("../fonts/montserrat-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v14-latin-regular.woff") format("woff"); /* Modern Browsers */
 }
 /* montserrat-700 - latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/montserrat-v14-latin-700.eot'); /* IE9 Compat Modes */
-  src: local('Montserrat Bold'), local('Montserrat-Bold'),
-       url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v14-latin-700.woff') format('woff'), /* Modern Browsers */
-
+  src: url("../fonts/montserrat-v14-latin-700.eot"); /* IE9 Compat Modes */
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/montserrat-v14-latin-700.woff")
+      format("woff"); /* Modern Browsers */
 }
 
 /* roboto-slab-regular - latin */
 @font-face {
-  font-family: 'Roboto Slab';
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/roboto-slab-v9-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-       url('../fonts/roboto-slab-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/roboto-slab-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+  src: url("../fonts/roboto-slab-v9-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"),
+    url("../fonts/roboto-slab-v9-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/roboto-slab-v9-latin-regular.woff") format("woff"); /* Modern Browsers */
 }
 
 /* crimson-text-regular - latin */
 @font-face {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/crimson-text-v10-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Crimson Text Regular'), local('CrimsonText-Regular'),
-       url('../fonts/crimson-text-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/crimson-text-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+  src: url("../fonts/crimson-text-v10-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Crimson Text Regular"), local("CrimsonText-Regular"),
+    url("../fonts/crimson-text-v10-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/crimson-text-v10-latin-regular.woff") format("woff"); /* Modern Browsers */
 }
 /* crimson-text-italic - latin */
 @font-face {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-style: italic;
   font-weight: 400;
-  src: url('../fonts/crimson-text-v10-latin-italic.eot'); /* IE9 Compat Modes */
-  src: local('Crimson Text Italic'), local('CrimsonText-Italic'),
-       url('../fonts/crimson-text-v10-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/crimson-text-v10-latin-italic.woff') format('woff'), /* Modern Browsers */
+  src: url("../fonts/crimson-text-v10-latin-italic.eot"); /* IE9 Compat Modes */
+  src: local("Crimson Text Italic"), local("CrimsonText-Italic"),
+    url("../fonts/crimson-text-v10-latin-italic.woff2") format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/crimson-text-v10-latin-italic.woff") format("woff"); /* Modern Browsers */
 }
 /* crimson-text-600italic - latin */
 @font-face {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-style: italic;
   font-weight: 600;
-  src: url('../fonts/crimson-text-v10-latin-600italic.eot'); /* IE9 Compat Modes */
-  src: local('Crimson Text SemiBold Italic'), local('CrimsonText-SemiBoldItalic'),
-       url('../fonts/crimson-text-v10-latin-600italic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/crimson-text-v10-latin-600italic.woff') format('woff'), /* Modern Browsers */
-  
+  src: url("../fonts/crimson-text-v10-latin-600italic.eot"); /* IE9 Compat Modes */
+  src: local("Crimson Text SemiBold Italic"),
+    local("CrimsonText-SemiBoldItalic"),
+    url("../fonts/crimson-text-v10-latin-600italic.woff2") format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/crimson-text-v10-latin-600italic.woff") format("woff"); /* Modern Browsers */
 }
 /* 
 font-family: 'Montserrat', sans-serif;
@@ -83,6 +88,11 @@ html {
 *::before,
 ::after {
   box-sizing: inherit;
+}
+
+*:hover,
+*:focus {
+  transition: all 200ms linear;
 }
 
 /*VISUAL-HIDDEN h1, h2 */
@@ -122,7 +132,7 @@ img {
   margin: 0 auto;
 }
 
-CLEAR FIX  - тільки для Float
+/* CLEAR FIX  - тільки для Float */
 .clearfix::after {
   display: table;
   content: "";
@@ -152,7 +162,6 @@ a {
   animation-iteration-count: infinite; */
 }
 
-
 /* @keyframes logo-rotate {
   from {
   }
@@ -172,7 +181,6 @@ a {
 .ul-navigation a:focus {
   color: #fed136;
   transition: all 200ms;
-
 }
 
 .li-navigation {
@@ -183,8 +191,8 @@ a {
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
+  font-weight: 600;
   padding: 45px 20px;
-  
 }
 
 /* MAIN - section: services */
@@ -193,19 +201,19 @@ a {
   padding: 0 0 100px 0;
 }
 
-.services-title {
-font-family: "Montserrat", sans-serif;
-font-weight: 600;
-text-align: center;
-font-size: 40px;
-text-transform: uppercase;
-line-height: 2;
-margin: 0;
-padding: 0;
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
 }
 
-.services-info {
-  font-family: 'Crimson Text', serif;
+.section-info {
+  font-family: "Crimson Text", serif;
   font-style: italic;
   text-align: center;
   font-weight: 400;
@@ -215,7 +223,7 @@ padding: 0;
   padding: 0 0 20px 0;
   color: #777777;
 }
-  /* CARD */
+/* CARD */
 .ul-service {
   display: flex;
   justify-content: space-between;
@@ -237,13 +245,12 @@ padding: 0;
 }
 
 .li-service p {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   line-height: 1.5;
   color: #777777;
   margin: 0;
   padding-top: 10px;
 }
-
 
 /* ICON */
 
@@ -260,14 +267,6 @@ padding: 0;
   background-position: center;
 }
 
-.all-icon {
-  /* display: block;
-  width: 56px;
-  height: 74px;
-  background-position: center;
-  background-repeat: no-repeat; */
-}
-
 .e-commerce-icon::before {
   background-image: url(../img/Icon-Basket.png);
 }
@@ -278,322 +277,91 @@ padding: 0;
   background-image: url(../img/Icon-Locked.png);
 }
 
-
 /* MAIN - section: contact us */
-
 .contact {
+  background-color: #222222;
+}
+
+.wrap-contact {
   background-image: url(../img/Map.png);
-  padding: 100px 0 115px 0;
+  padding: 100px 0 100px 0;
   background-repeat: no-repeat;
   background-size: cover;
+  /* min-height: 676px; */
 }
-
-
-/* header {
-  padding-bottom: 55px;
+.white {
+  color: white;
 }
-.navbar {
+.contact-form {
+  padding-top: 75px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
-.site-logo-link {
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  color: #95e1d3;
-}
-.ul-navigation {
-  display: flex;
-  min-width: 490px;
-  margin: 0;
-  padding: 0;
-}
-.ul-navigation a:hover,
-.ul-navigation a:focus {
-  color: #f38181;
-  border-bottom: 3px solid #f38181;;
-  transition: all 200ms;
-}
-
-.li-navigation {
-  font-weight: bold;
+.contact-form *::placeholder{
   font-size: 14px;
-  line-height: 1.2;
-  color: #95e1d3;
   text-transform: uppercase;
-  padding: 20px 15px 10px;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  color: #bbbbbb;
 }
-
-
-MAIN
-main {
+.form-section {
+  flex-basis: 460px;
+  height: 212px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 0 0 30px 0;
 }
-
-SECTIN - services / services-title
-
-.service {
-  padding-top: 55px;
-}
-
-.section-title p {
-  font-family: "Crimson Text", serif;
-  font-size: 24px;
-  line-height: 1.2;
-  font-weight: 400;
-  font-style: italic;
-  margin: 0;
-}
-.section-title h2 {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-size: 30px;
-  line-height: 3;
-  margin: 0;
-  padding: 0;
-}
-
-.section-title {
-  text-align: center;
-}
-.section-title::after {
-  content: "";
+.contact-input {
   display: block;
-  margin: 0 auto ;
-  height: 3px;
-  width: 60px;
-  background: #f38181;
-} */
-
-/*ul - services */
-/* .ul-service {
-  min-height: 400px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0;
-  padding: 80px 0 0 0;
-}
-.li-service {
-  flex-basis: 370px;
-  padding-left: 94px;
-  background-repeat: no-repeat;
-  background-position: 30px top;
-}
-
-.li-service h3 {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 14px;
-  margin: 0;
-  padding: 0 0 12px 0;
-  text-align: left;
-  line-height: 1.6;
-}
-.li-service p {
-  padding: 0;
-  margin: 0;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(153, 153, 153);
-  text-align: left;
-  line-height: 1.6;
-}
-.clock-icon {
-  background-image: url(../img/header/icon/1-photography-clock.png);
-}
-.web-design-icon {
-  background-image: url(../img/header/icon/2-web-design.png);
-}
-.creativity-icon {
-  background-image: url(../img/header/icon/3-creativity.png);
-}
-.seo-icon {
-  background-image: url(../img/header/icon/4-seo.png);
-}
-.home-icon {
-  background-image: url(../img/header/icon/5-home.png);
-}
-.digital-icon {
-  background-image: url(../img/header/icon/6-digital.png);
-}
-
-.team-info {
-  text-align: center;
-  width: 960px;
-  padding: 40px 0 90px 0;
-  margin: 0 auto;
-  font-family: "Roboto", sans-serif;
-  color: rgb(153, 153, 153);
-  line-height: 1.6;
-}
-
-/* TEAM */
-
-.team {
-  padding-top: 46px;
-  padding-bottom: 84px;
-}
-
-.ul-team {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.li-team {
-  flex-basis: 378px;
-}
-
-
-.img-wrapper {
-  position: relative;
-  transition: all 300ms linear;
-}
-.img-owerlay {
-  position: absolute;
+  padding: 0 0 0 20px;
   width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    rgba(243, 129, 129, 0.9) 0%,
-    rgba(252, 227, 138, 0.9) 100%
-  );
-  transition: all 300ms ease-in;
-  opacity: 0;
+  height: 52px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-.li-team:hover .img-wrapper {
-  transform: translate(-10px, -10px);
-}
-.li-team:hover .img-owerlay {
-  opacity: 1;
-  box-shadow: 10px 10px #95e1d3;
-  transition: all 300ms;
-}
-
-.ul-social {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.btn-social {
-  display: block;
-  width: 56px;
-  height: 56px;
-  background-color: #fce38a;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.btn-social:hover,
-.btn-social:focus {
-  background-color: #95e1d3;
-}
-
-.facebook {
-  background-image: url(../img/header/icon/facebook.png);
-}
-.twitter {
-  background-image: url(../img/header/icon/twitter.png);
-}
-.pinterest {
-  background-image: url(../img/header/icon/pinterest.png);
-}
-.instagram {
-  background-image: url(../img/header/icon/instagram.png);
-}
-
-.li-social:not(:last-child){
-  margin-right: 1px;
-}
-
-
-
-Worker name and position
-
-.worker-name {
-  margin: 0;
-  padding: 28px 0 10px 0;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  text-align: center;
-  color: rgb(51, 51, 51);
-  text-transform: uppercase;
-}
-
-.worker-position {
-  margin: 0;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  color: rgb(153, 153, 153);
-  font-style: italic;
-}
-
-/* FOOTER */
-
-.footer-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid #e5e5e5;
-  height: 64px;
-}
-.signature {
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  color: rgb(51, 51, 51);
-  margin: 0;
-}
-.signature a {
-  color: #f38181;
-}
-.signature a:hover,
-.signature a:focus {
-  color: #76d3c2; 
-}
-
-.subscribe-form {
-  display: flex;
-}
-.mail-input {
-  height: 40px;
-  width: 230px;
-  padding-left: 8px;
-  border: 1px solid rgb(231, 231, 231);
-  background-color: rgb(255, 255, 255);
-}
-.mail-input::placeholder {
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(204, 204, 204);
-  font-style: italic;
-  line-height: 1.6;
-}
-
-.subscribe-btn {
-  height: 40px;
-  width: 150px;
+.contact-input:focus {
+  outline: none;
   border: none;
-  background-color: #95e1d3;
+  outline-offset: 2px;
+}
+.contact-form *:required:valid:focus {
+  outline: 3px solid rgb(155, 223, 155);
+}
+.contact-form *:required:invalid:focus {
+  outline: 3px solid rgb(214, 119, 119);
+}
+.contact-message {
+padding: 20px 0 0 20px;
+height: 100%;
+width: 100%;
+border: 1px solid #ccc;
+border-radius: 5px;
+resize: none;
+outline-offset: 2px;
+}
+
+.contact-btn {
+  width: 240px;
+  height: 66px;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  border-radius: -5px;
+  background-color: #fed136;
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
   text-transform: uppercase;
 }
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-  background-color: #f38181;
-  transition: all 300ms;
-} */
+.contact-btn:hover,
+.contact-btn:focus {
+  background-color: rgb(155, 223, 155);
+}
+.contact-btn *:required:invalid:focus {
+  outline: 3px solid rgb(214, 119, 119);
+}
