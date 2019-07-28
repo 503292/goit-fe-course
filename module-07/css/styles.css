@@ -362,6 +362,3 @@ outline-offset: 2px;
 .contact-btn:focus {
   background-color: rgb(155, 223, 155);
 }
-.contact-btn *:required:invalid:focus {
-  outline: 3px solid rgb(214, 119, 119);
-}
