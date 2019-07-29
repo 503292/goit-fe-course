@@ -285,6 +285,7 @@ a {
   background-repeat: no-repeat;
   /* background-position: 0 0; */
   background-size: contain;
+  /* background-attachment: fixed; */
 }
 
 .wrap-contact {
@@ -340,7 +341,7 @@ padding: 20px 0 0 20px;
 height: 100%;
 width: 100%;
 border: 1px solid #ccc;
-border-radius: 5px;
+border-radius: 3%;
 resize: none;
 outline-offset: 2px;
 }
@@ -351,7 +352,7 @@ outline-offset: 2px;
   margin: 0 auto;
   border: none;
   outline: none;
-  border-radius: -5px;
+  border-radius: 5px;
   background-color: #fed136;
   color: #fff;
   font-size: 18px;
