@@ -197,7 +197,7 @@ a {
 
 /* MAIN - section: services */
 .services {
-
+  padding: 0 0 120px 0;
 }
 
 .section-title {
@@ -279,15 +279,17 @@ a {
 /* MAIN - section: contact us */
 .contact {
   background-color: #222222;
+  background-image: url(../img/Map.png);
+  background-position: right center;
+  padding: 50px 0 100px 0;
+  background-repeat: no-repeat;
+  /* background-position: 0 0; */
+  background-size: contain;
 }
 
 .wrap-contact {
-  background-image: url(../img/Map.png);
-  padding: 50px 0 100px 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* -o-fit-object: cover; */
-  /* min-height: 676px; */
+ 
+
 }
 .white {
   color: white;
