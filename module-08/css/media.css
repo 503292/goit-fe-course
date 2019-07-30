@@ -77,12 +77,11 @@
   }
   .ul-partner {
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .li-partner {
     width: 220px;
     margin: 0;
   }
-  
-  
+
 }
