@@ -45,10 +45,7 @@ body {
   margin: 0;
 }
 
-.wrapper {
-  width: 280px;
-  margin: 0 auto;
-}
+
 
 /* CLEAR FIX  - тільки для Float */
 .clearfix::after {
@@ -70,6 +67,10 @@ a {
   text-decoration: none;
   color: #fff;
 }
+.wrapper {
+    width: 280px;
+    margin: 0 auto;
+  }
 
 @media (min-width: 768px) {
     .wrapper {
@@ -79,6 +80,6 @@ a {
 
 @media (min-width: 1200px) {
     .wrapper {
-        width: 946px;
+        width: 944px;
     }
 }

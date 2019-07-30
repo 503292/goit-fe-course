@@ -15,139 +15,78 @@
       <div class="wrapper-nav wrapper">
         <h1 class="site-title visually-hidden">holiday dreams</h1>
         <nav class="header-nav">
-          <ul class="ul-auth">
-            <li><a href="#" class="li-auth">Log in</a></li>
-            <li><a href="#" class="li-auth">Sing up</a></li>
-          </ul>
-          <a class="logo-nav" href="#">URLAUBSGLÜCK</a>
+          <div class="auth-wrap">
+            <ul class="ul-auth">
+              <li><a href="#" class="li-auth">Log in</a></li>
+              <li><a href="#" class="li-auth">Sing up</a></li>
+            </ul>
+          </div>
+          <div class="logo-wrap">
+            <a class="logo-nav" href="#">URLAUBSGLÜCK</a>
+          </div>
         </nav>
-        <h2 class="site-title">Share your holiday dreams</h2>
-        <p class="site-description">
-          And find the perfect partner to fullfill it
-        </p>
-        <div class="wrap-btn">
-          <a class="btn-nav" href="#">Find your holiday partner</a>
+        <div class="site-info">
+          <h2 class="site-title-info">Share your holiday dreams</h2>
+          <p class="site-description">
+            And find the perfect partner to fullfill it
+          </p>
+          <div class="wrap-btn">
+            <a class="btn-nav" href="#">Find your holiday partner</a>
+          </div>
         </div>
       </div>
     </header>
     <!-- MAIN -->
     <main>
       <section class="partner">
-        <div class="wrapper">
+        <div class="wrapper wrapper-partner">
           <h2 class="title-partner">Meet a partner for your best holiday</h2>
+
           <ul class="ul-partner">
             <li class="li-partner">
+              <div class="img-wrap">
+                <img src="./img/1-man.jpg" alt="" />
+              </div>
               <h3 class="name-partner">Bradley Hunter</h3>
-              <p class="discription-partner">Based in Chicago. I love playing tennis and loud music.</p>
+              <p class="discription-partner">
+                Based in Chicago. I love playing tennis and loud music.
+              </p>
+            </li>
+            <li class="li-partner">
+              <div class="img-wrap">
+                <img src="./img/2-man.jpg" alt="" />
+              </div>
+              <h3 class="name-partner">Lucas Marsha</h3>
+              <p class="discription-partner">
+                I get my inspiration from nature and objects around me. I have a
+                passion to colours, typography and skateboards.
+              </p>
+            </li>
+            <li class="li-partner">
+              <div class="img-wrap">
+                <img src="./img/3-woman.jpg" alt="" />
+              </div>
+              <h3 class="name-partner">Heather Walker</h3>
+              <p class="discription-partner">
+                  I'm a happy person that loves cats and climbing on mountains.
+              </p>
+            </li>
+            <li class="li-partner">
+              <div class="img-wrap">
+                <img src="./img/4-woman.jpg" alt="" />
+              </div>
+              <h3 class="name-partner">Bradley Hunter</h3>
+              <p class="discription-partner">
+                Based in Chicago. I love playing tennis and loud music.
+              </p>
             </li>
           </ul>
+
+          <div class="wrap-btn">
+            <a class="btn-nav" href="#">See other partners</a>
+          </div>
         </div>
       </section>
     </main>
-    <!-- --HEADER-- -->
-    <!-- <header>
-      <h1 class="site-title visually-hidden">MoGo</h1>
-      <nav class="navbar wrapper">
-        <a href="#" class="site-logo-link">
-          <img src="img/logo.png" alt="logo-site" height="30" width="80" />
-        </a>
-        <ul class="ul-navigation">
-          <li>
-            <a class="li-navigation" href="#">Home</a>
-          </li>
-          <li>
-            <a class="li-navigation" href="#">Service</a>
-          </li>
-          <li>
-            <a class="li-navigation" href="#">Portfolio</a>
-          </li>
-          <li>
-            <a class="li-navigation" href="#">About</a>
-          </li>
-          <li>
-            <a class="li-navigation" href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header> -->
-    <!-- --MAIN --  -->
-
-    <!-- <main>
-      <section class="services">
-        <div class="wrapper wrap-contact">
-          <h2 class="section-title">Services</h2>
-          <p class="section-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-
-          <ul class="ul-service">
-            <li class="li-service e-commerce-icon">
-              <h3>E-Commerce</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Explicabo, fugit ut. Rem
-              </p>
-            </li>
-            <li class="li-service responsive-web-icon">
-              <h3>Responsive-Web</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Explicabo, fugit ut. Rem
-              </p>
-            </li>
-            <li class="li-service web-security-icon">
-              <h3>Web-security</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Explicabo, fugit ut. Rem
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      CONTACT US
-      <section class="contact">
-        <div class="wrap-contact wrapper">
-          <h2 class="section-title white">Contact us</h2>
-          <p class="section-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <form action="#" method="GET" class="contact-form">
-            <div class="form-section form-section-left">
-              <input
-                type="text"
-                name="first-name"
-                class="contact-input"
-                placeholder="Your Name *"
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                class="contact-input"
-                placeholder="Your E-mail *"
-                required
-                autofocus
-              />
-              <input
-                type="text"
-                name="subject"
-                class="contact-input"
-                placeholder="Subject"
-              />
-            </div>
-            <div class="form-section form-section-left">
-              <textarea
-                name="message"
-                class="contact-message"
-                placeholder="Yor message *"
-                required
-              ></textarea>
-            </div>
-            <button type="submit" class="contact-btn ">Send Message</button>
-          </form>
-        </div>
-      </section>
-    </main> -->
   </body>
 </html>
