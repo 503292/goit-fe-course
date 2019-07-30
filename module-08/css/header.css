@@ -102,13 +102,14 @@ font-family: 'Roboto', sans-serif;
 /* MAIN */
 .wrapper-partner {
   padding-top: 70px;
+  padding-bottom: 58px;
 }
 .title-partner {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 22px;
   text-align: center;
-  margin-bottom: 20px;
+  margin:  0 0 20px 0;
   padding: 0;
 }
 
@@ -118,47 +119,58 @@ font-family: 'Roboto', sans-serif;
   padding: 0;
 }
 .li-partner {
-  flex-basis: 280px;
+    
+  /* flex-basis: 280px; */
+}
+.li-partner:not(:last-child){
+    margin-bottom: 40px;
 }
 .img-wrap {
-    position: relative;
-    width: 121px;
-    margin: 0 auto;
+  position: relative;
+  width: 121px;
+  margin: 0 auto 20px auto;
 }
 .img-wrap::after {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    content: "";
-    right: 0;
-    bottom: 0;
-    background-color: red;
-    border-radius: 50px;
-    border: 3px solid white;
-    background-repeat: no-repeat;
-    background-position: center;
-
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  border-radius: 50px;
+  border: 3px solid white;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .li-partner:nth-child(1) .img-wrap::after {
-    background-image: url(../img/1-tv-icon.png);
-    background-color: #ff4e50;
+  background-image: url(../img/1-tv-icon.png);
+  background-color: #ff4e50;
 }
 .li-partner:nth-child(2) .img-wrap::after {
-    background-image: url(../img/2-bottle-icon.png);
-    background-color: #ffa507;
+  background-image: url(../img/2-bottle-icon.png);
+  background-color: #ffa507;
 }
 .li-partner:nth-child(3) .img-wrap::after {
-    background-image: url(../img/3-coffe-icon.png);
-    background-color: #1cd7ad;
+  background-image: url(../img/3-coffe-icon.png);
+  background-color: #1cd7ad;
 }
 .li-partner:nth-child(4) .img-wrap::after {
-    background-image: url(../img/4-air-icon.png);
-    background-color: #4e73db;
+  background-image: url(../img/4-air-icon.png);
+  background-color: #4e73db;
 }
 
 .name-partner {
-    text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 12px;;
 }
 .discription-partner {
-    text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
 }
