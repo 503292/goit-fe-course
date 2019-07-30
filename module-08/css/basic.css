@@ -1,0 +1,84 @@
+/* ------  ЗАГАЛЬНИХ настройок ----- */
+
+/* * {
+  outline: 1px solid rgb(241, 100, 100);
+} */
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+
+*:hover,
+*:focus {
+  /* transition: all 200ms linear; */
+}
+
+/*VISUAL-HIDDEN h1, h2 */
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0px;
+  border: 0px;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
+/* CLEAR FIX  - тільки для Float */
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        width: 746px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 946px;
+    }
+}

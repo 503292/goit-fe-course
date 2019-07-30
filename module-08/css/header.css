@@ -1,0 +1,121 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* HEADER */
+.header {
+  background-image: url("../img/banner-1400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 520px;
+}
+.wrapper-nav {
+  color: #fff;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ul-auth {
+  display: flex;
+  min-width: 280px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px 0 58px 0;
+}
+.li-auth {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.li-auth:hover,
+.li-auth:focus {
+  border: 2px solid #fff;
+}
+.logo-nav {
+  width: 180px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  margin: 0 auto;
+  padding: 58px 0 20px 0;
+}
+
+.site-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 20px 0 10px 0;
+}
+.site-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0 10px 0;
+}
+.wrap-btn {
+  padding: 10px 0 10px 0;
+}
+
+.btn-nav {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  width: 280px;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background-color: #ff4e50;
+  color: #fff;
+  
+  padding: 15px 0;
+}
+
+.btn-nav:focus {
+    color: #ff4e50;
+    background-color: #fff;
+  border: 2px solid #ff4e50;
+}
+/*/
+  .site-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  
+    margin: 0;
+    padding: 0 0 20px 0;
+  }
+  .find-link {
+    display: block;
+    width: 280px;
+    border: none;
+    border-radius: 2rem;
+    text-decoration: none;
+    background-color: #ff4e50;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin: 0 auto ;
+    padding: 0.8125rem 0;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  .find-link:hover {
+    background-color: #fff;
+    color: #ff4e50;
+    border: 2px solid  #ff4e50;
+  } */
