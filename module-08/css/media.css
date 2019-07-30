@@ -46,18 +46,43 @@
   }
   .wrap-btn {
     padding: 0;
-    /* margin-bottom: 234px; */
   }
   .btn-nav {
     width: 230px;
   }
+  /* MAIN */
+  .wrapper-partner {
+    padding-bottom: 40px;
+}
+  .ul-partner {
+    margin-bottom: 10px;
+  }
+  .li-partner {
+    width: 270px;
+  }
+  
+
 }
 
 @media (min-width: 1200px) {
   .header {
     background-image: url("../img/banner-1400.jpg");
   }
+  .wrapper-partner {
+    padding-top: 70px;
+    padding-bottom: 72px;
+}
   .logo-nav { 
     padding-left: 0;
   }
+  .ul-partner {
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  .li-partner {
+    width: 220px;
+    margin: 0;
+  }
+  
+  
 }
