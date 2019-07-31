@@ -5,34 +5,65 @@ font-family: 'Roboto', sans-serif;
 
 /* HEADER */
 
-
-/* .header {
+.header {
   background-image: url("../img/banner-1400.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.wrapper-nav {
-  color: #fff;
+  padding-top: 20px;
   padding-bottom: 138px;
-}
-.header-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-}
-.auth-wrap {
-  margin-bottom: 116px;
-}
-.ul-auth {
-  display: flex;
-  min-width: 280px;
-  justify-content: center;
   margin: 0;
-  padding: 20px 0 0 0;
 }
+.logo-nav {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+.site-title-info {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 600;
+  margin: 0;
+  padding-bottom: 18px;
+  color: #fff;
+}
+.site-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 18px;
+  color: #fff;
+}
+.btn-nav {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  outline: none;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  background-color: #ff4e50;
+  padding: 15px 0;
+}
+.btn-nav:focus {
+  color: #ff4e50;
+  background-color: #fff;
+  border: 2px solid #ff4e50;
+}
+.ul-auth{
+  padding-bottom: 116px;
+  margin: 0;
+}
+.nav-header {
+margin-bottom: 30px;
+}
+
 .li-auth {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -42,64 +73,91 @@ font-family: 'Roboto', sans-serif;
   border: 2px solid transparent;
   color: #fff;
   cursor: pointer;
+  outline: none;
 }
 .li-auth:hover,
 .li-auth:focus {
   border: 2px solid #fff;
-}
-.logo-wrap {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  padding: 0;
+  outline: none;
+  background-color: transparent;
 }
 
-.logo-nav {
-  text-align: center;
+/* MAIN */
+.wrapper-partner {
+  padding-top: 70px;
+  padding-bottom: 56px;
+
+}
+.title-partner {
   font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-size: 20px;
   font-weight: 600;
-}
-.site-info {
-}
-.site-title-info {
+  font-size: 22px;
   text-align: center;
-  text-transform: uppercase;
-  margin: 0 0 20px;
-  padding: 0;
+  margin-top: 0;
 }
-.site-description {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  text-align: center;
-  margin: 0 0 18px 0;
-  padding: 0;
+.ul-partner {
+padding: 0;
+margin: 0 0 30px 0;
 }
-.wrap-btn {
-  padding: 0;
+.li-partner:not(:last-child) {
+ margin-bottom: 30px;
+}
+.img-wrap {
+  position: relative;
+  width: 121px;
+  margin: 0 auto 20px auto;
+}
+.img-wrap::after {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  content: "";
+  right: 0;
+  bottom: 0;
+  border-radius: 50px;
+  border: 3px solid white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.li-partner:nth-child(1) .img-wrap::after {
+  background-image: url(../img/1-tv-icon.png);
+  background-color: #ff4e50;
+}
+.li-partner:nth-child(2) .img-wrap::after {
+  background-image: url(../img/2-bottle-icon.png);
+  background-color: #ffa507;
+}
+.li-partner:nth-child(3) .img-wrap::after {
+  background-image: url(../img/3-coffe-icon.png);
+  background-color: #1cd7ad;
+}
+.li-partner:nth-child(4) .img-wrap::after {
+  background-image: url(../img/4-air-icon.png);
+  background-color: #4e73db;
 }
 
-.btn-nav {
+.name-partner {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  width: 280px;
   text-align: center;
-  border: 2px solid transparent;
-  border-radius: 50px;
-  background-color: #ff4e50;
-  color: #fff;
-
-  padding: 15px 0;
+  margin-top: 0;
+}
+.discription-partner {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
 }
 
-.btn-nav:focus {
-  color: #ff4e50;
-  background-color: #fff;
-  border: 2px solid #ff4e50;
-} */
+
+/*
+
+}
+
+
+
 
 /* MAIN */
 /* .wrapper-partner {
