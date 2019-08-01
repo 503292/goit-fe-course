@@ -1,0 +1,70 @@
+/* ------  ЗАГАЛЬНИХ настройок ----- */
+
+/* * {
+  outline: 1px solid rgb(241, 100, 100);
+} */
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+
+/*VISUAL-HIDDEN h1, h2 */
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0px;
+  border: 0px;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "Kaushan Script", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 1200px; /* must 1200*/
+  margin: 0 auto;
+}
+
+/* CLEAR FIX  - тільки для Float*/
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* ---------------------------------------
+ закінчення ЗАГАЛЬНИХ настройок 
+--------------------------------------- */
