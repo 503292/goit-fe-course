@@ -5,7 +5,7 @@
 
 /* HEADER */
 
-header {
+/* header {
   padding-bottom: 55px;
 }
 .navbar {
@@ -40,16 +40,16 @@ header {
   color: #95e1d3;
   text-transform: uppercase;
   padding: 20px 15px 10px;
-}
+} */
 
 
 /* MAIN */
-main {
-}
+/* main {
+} */
 
 /* SECTIN - services / services-title */
 
-.service {
+/* .service {
   padding-top: 55px;
 }
 
@@ -78,10 +78,10 @@ main {
   height: 3px;
   width: 60px;
   background: #f38181;
-}
+} */
 
 /*ul - services */
-.ul-service {
+/* .ul-service {
   min-height: 400px;
   display: flex;
   flex-wrap: wrap;
@@ -142,11 +142,11 @@ main {
   font-family: "Roboto", sans-serif;
   color: rgb(153, 153, 153);
   line-height: 1.6;
-}
+} */
 
 /* TEAM */
 
-.team {
+/* .team {
   padding-top: 46px;
   padding-bottom: 84px;
 }
@@ -228,35 +228,17 @@ main {
 
 .li-social:not(:last-child){
   margin-right: 1px;
-}
+} */
 
 
 
 /* Worker name and position */
 
-.worker-name {
-  margin: 0;
-  padding: 28px 0 10px 0;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  text-align: center;
-  color: rgb(51, 51, 51);
-  text-transform: uppercase;
-}
 
-.worker-position {
-  margin: 0;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  color: rgb(153, 153, 153);
-  font-style: italic;
-}
 
 /* FOOTER */
 
-.footer-wrap {
+/* .footer-wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -310,4 +292,4 @@ main {
 .subscribe-btn:focus {
   background-color: #f38181;
   transition: all 300ms;
-}
+} */
