@@ -1,47 +1,9 @@
-/* ШАБЛОН до 9 модуля */
-
-/* @media (min-width: 768px) {
-  .header {
-    padding-bottom: 234px;
-    margin: 0;
-  }
-  .ul-auth {
-    padding-bottom: 0;
-  }
-  .nav-header {
-      margin-bottom: 0;
-    padding-bottom: 150px;
-  }
-  .site-title-info {
-    padding: 0;
-    font-size: 50px;
-    line-height: 1.2;
-    margin-bottom: 36px;
-  }
-  .site-description {
-    padding: 0;
-    margin-bottom: 32px;
-    font-size: 24px;
-  }
-  .wrapper-partner {
-    padding-bottom: 40px;
+@media (-webkit-min-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .banner {
+        background-image: url("../img/bg_baner@2x.jpg");
+    }
 }
-  .ul-partner {
-    justify-content: space-evenly;
-  }
- 
-  .li-partner:not(:nth-child(-n + 2)) {
-    margin-bottom:  0px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .ul-partner {
-    margin-bottom: 40px;
-  }
-  .li-partner:nth-child(-n + 2) {
-    margin-bottom:  0px;
-  }
-}
- */
  
