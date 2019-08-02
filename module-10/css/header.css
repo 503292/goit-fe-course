@@ -14,12 +14,11 @@ font-family: "Kaushan Script", sans-serif;
   padding-top: 29px;
   padding-bottom: 220px;
 }
+
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.banner__navigation {
   margin-bottom: 150px;
 }
 
@@ -27,13 +26,13 @@ font-family: "Kaushan Script", sans-serif;
 .menu {
 }
 
-.menu__list {
+.menu-list {
   display: flex;
   min-width: 620px;
   margin: 0;
 }
 
-.menu__list-item {
+.menu-list__item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
@@ -41,38 +40,42 @@ font-family: "Kaushan Script", sans-serif;
   padding: 15px 15px;
   color: #fff;
 }
-.menu__link_text {
+.menu-list__link-text {
   color: #fff;
   padding-bottom: 15px;
   border-bottom: 3px solid transparent;
 }
-.menu__link_icon {
-  fill: #fff;
-}
-.menu__link_text:hover,
-.menu__link_text:focus {
+.menu-list__link-text:hover,
+.menu-list__link-text:focus {
   color: #fce38a;
   border-bottom: 3px solid #fce38a;
   transition: all 200ms;
 }
-.menu__link_icon:hover,
-.menu__link_icon:focus {
+.menu-list__link-icon {
+  fill: #fff;
+}
+.menu-list__link-icon:hover,
+.menu-list__link-icon:focus {
   fill: #fce38a;
   transition: all 200ms;
 }
 /* title-site */
 .title-site {
+ 
+  max-width: 860px;
+  margin: 0 auto 70px;
+  padding: 0;
+}
+.banner__title-site { 
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
   color: #fff;
   font-size: 150px;
   line-height: 0.9;
-  margin: 0;
-  padding: 0;
 }
-.title-site_desc {
+.title-site__desc {
   display: block;
   font-family: "Kaushan Script", sans-serif;
   font-weight: 400;
@@ -80,17 +83,15 @@ font-family: "Kaushan Script", sans-serif;
   text-transform: none;
   margin-bottom: 44px;
 }
-.banner__title-site {
-  max-width: 860px;
-  margin: 0 auto 70px;
-}
 
-.banner__btn {
+.btn {
   display: block;
+  margin: 0 auto;
+}
+.banner__btn {
   font-size: 14px;
   font-weight: 600;
   max-width: 160px;
-  margin: 0 auto;
   text-transform: uppercase;
   padding: 12px 25px;
   color: #fff;
@@ -109,12 +110,14 @@ font-family: "Kaushan Script", sans-serif;
 .service {
   padding-top: 55px;
 }
-.service-title_wrap {
+.title-wrap {
   max-width: 326px;
   margin: 0 auto;
   text-align: center;
+ 
 }
 .service-desc {
+  
   font-family: "Kaushan Script", sans-serif;
   font-size: 24px;
   margin: 0;
@@ -326,23 +329,23 @@ font-family: "Kaushan Script", sans-serif;
 }
 /* signature */
 
-.footer__signature {
+.signature {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
   margin: 0;
 }
-.footer__signature_link {
+.signature__link {
   color: #f38181;
 }
-.footer__signature_link:hover,
-.footer__signature_link:focus {
+.signature__link:hover,
+.signature__link:focus {
   color: #76d3c2;
 }
 
 /* form subscribe */
 
-.footer__subscribe-form {
+.subscribe-form {
   display: flex;
 }
 .subscribe-form__mail-input {
