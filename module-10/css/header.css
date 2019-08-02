@@ -7,7 +7,7 @@ font-family: "Kaushan Script", sans-serif;
 /* HEADER */
 
 .banner {
-  background-image: url("../img/bg_baner@2x.jpg");
+  background-image: url("../img/bg_baner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -117,7 +117,6 @@ font-family: "Kaushan Script", sans-serif;
 .service-desc {
   font-family: "Kaushan Script", sans-serif;
   font-size: 24px;
-  /* padding-bottom: 20px; */
   margin: 0;
 }
 .service-title {
@@ -191,6 +190,14 @@ font-family: "Kaushan Script", sans-serif;
   background-image: url(../img/ico_6.svg);
 }
 
+
+
+/* TEAM */
+.team {
+  padding-top: 46px;
+  padding-bottom: 84px;
+}
+
 .team-info {
   text-align: center;
   max-width: 980px;
@@ -199,13 +206,6 @@ font-family: "Kaushan Script", sans-serif;
   font-family: "Roboto", sans-serif;
   color: rgb(153, 153, 153);
   line-height: 1.6;
-}
-
-/* TEAM */
-
-.team {
-  padding-top: 46px;
-  padding-bottom: 84px;
 }
 
 .team-list {
@@ -264,34 +264,29 @@ font-family: "Kaushan Script", sans-serif;
   background-repeat: no-repeat;
 }
 
-.social__btn:hover,
-.social__btn:focus {
-  fill: #fff;
-}
-
 .social__ico {
   fill: #f38181;
 }
 .social__btn:hover .social__ico,
 .social__btn:focus .social__ico {
-  fill: var(--color-white);
+  fill: #fff;
 }
 
 .social__ico_facebook {
-  height: 1.625rem;
-  width: 0.8125rem;
+  height: 26px;
+  width: 13px;
 }
 .social__ico_twitter {
-  height: 1.375rem;
-  width: 1.625rem;
+  height: 22px;
+  width: 26px;
 }
 .social__ico_pinterest {
-  height: 1.625rem;
-  width: 1.3125rem;
+  height: 26px;
+  width: 21px;
 }
 .social__ico_instagram {
-  height: 1.625rem;
-  width: 1.625rem;
+  height: 26px;
+  width: 26px;
 }
 
 .social-list__item:not(:last-child) {
@@ -329,6 +324,8 @@ font-family: "Kaushan Script", sans-serif;
   border-top: 1px solid #e5e5e5;
   height: 64px;
 }
+/* signature */
+
 .footer__signature {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
@@ -342,6 +339,8 @@ font-family: "Kaushan Script", sans-serif;
 .footer__signature_link:focus {
   color: #76d3c2;
 }
+
+/* form subscribe */
 
 .footer__subscribe-form {
   display: flex;
