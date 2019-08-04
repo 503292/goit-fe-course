@@ -48,7 +48,7 @@ img {
 }
 
 .container {
-  width: 1200px; 
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -63,6 +63,6 @@ ul {
   list-style: none;
 }
 a {
+  display: block;
   text-decoration: none;
 }
-

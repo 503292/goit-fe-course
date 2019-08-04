@@ -133,13 +133,12 @@ font-family: "Kaushan Script", sans-serif;
   text-align: center;
  
 }
-.service-desc {
-  
+.section__desc {
   font-family: "Kaushan Script", sans-serif;
   font-size: 1.5rem;
   margin: 0;
 }
-.service-title {
+.section__title {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 1.875rem;
@@ -147,7 +146,7 @@ font-family: "Kaushan Script", sans-serif;
   margin: 0;
 }
 
-.service-title::after {
+.section__title::after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -196,22 +195,22 @@ font-family: "Kaushan Script", sans-serif;
   text-align: left;
   line-height: 1.6;
 }
-.service__list-item_clock-icon {
+.service__list-item--clock-icon {
   background-image: url(../img/ico_1.svg);
 }
-.service__list-item_web-design-icon {
+.service__list-item--web-design-icon {
   background-image: url(../img/ico_2.svg);
 }
-.service__list-item_creativity-icon {
+.service__list-item--creativity-icon {
   background-image: url(../img/ico_3.svg);
 }
-.service__list-item_seo-icon {
+.service__list-item--seo-icon {
   background-image: url(../img/ico_4.svg);
 }
-.service__list-item_home-icon {
+.service__list-item--home-icon {
   background-image: url(../img/ico_5.svg);
 }
-.service__list-item_digital-icon {
+.service__list-item--digital-icon {
   background-image: url(../img/ico_6.svg);
 }
 
@@ -307,7 +306,7 @@ font-family: "Kaushan Script", sans-serif;
   padding: 0;
 }
 
-.social__btn {
+.social-list__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -327,8 +326,8 @@ font-family: "Kaushan Script", sans-serif;
 .social__ico {
   fill: #f38181;
 }
-.social__btn:hover .social__ico,
-.social__btn:focus .social__ico {
+.social-list__link:hover .social__ico,
+.social-list__link:focus .social__ico {
   fill: #fff;
 }
 
