@@ -1,0 +1,134 @@
+/* TEAM */
+.team {
+  padding-top: 2.875rem;
+  padding-bottom: 5.25rem;
+}
+
+.team-info {
+  @include font($roboto, 16px);
+
+  font-weight: 400;
+  color: $color-gray;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 61.25rem;
+  padding: 2.5rem 0 5.625rem 0;
+  margin: 0 auto;
+
+}
+
+.team-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-list__item {
+  flex-basis: 23.625rem;
+
+  &:hover .team-list__img-wrap {
+    transform: translate(-0.625rem, -0.625rem);
+  }
+
+  &:hover .team-list__img-owerlay {
+    opacity: 1;
+    box-shadow: 0.625rem 0.625rem $color-azure;
+    transition: all 300ms;
+  }
+}
+
+.team-list__img-wrap {
+  position: relative;
+  transition: all 300ms linear;
+}
+
+.team-list__img-owerlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(243, 129, 129, 0.9) 0%,
+    rgba(252, 227, 138, 0.9) 100%
+  );
+  opacity: 0;
+}
+
+.social-list {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+}
+
+.social-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: $color-yellow;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &:hover .social__ico,
+  &:focus .social__ico {
+    fill: $color-white;
+  }
+}
+
+.social__ico {
+  fill: $color-pink;
+}
+
+.social__ico_facebook {
+  height: 1.625rem;
+  width: 0.8125rem;
+}
+
+.social__ico_twitter {
+  height: 1.375rem;
+  width: 1.625rem;
+}
+
+.social__ico_pinterest {
+  height: 1.625rem;
+  width: 1.3125rem;
+}
+
+.social__ico_instagram {
+  height: 1.625rem;
+  width: 1.625rem;
+}
+
+.social-list__item:not(:last-child) {
+  margin-right: 0.0625rem;
+}
+
+/* Worker name and position */
+
+.team-list__worker-name {
+  @include font($monserat, 14px);
+
+  font-weight: 300;
+  color: rgb(51, 51, 51);
+  margin: 0;
+  padding: 1.75rem 0 0.625rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.team-list__worker-position {
+  @include font($monserat, 15px);
+
+  font-weight: 400;
+  color: $color-gray;
+  margin: 0;
+  text-align: center;
+  font-style: italic;
+}

@@ -1,0 +1,97 @@
+/* SECTIN - services / services-title */
+
+.service {
+  padding-top: 3.4375rem;
+}
+
+.title-wrap {
+  max-width: 20.375rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section__desc {
+  @include font($kaushan, 24px);
+
+  margin: 0;
+}
+
+.section__title {
+  @include font($monserat, 30px);
+
+  text-transform: uppercase;
+  line-height: 3;
+  margin: 0;
+
+  &::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 0.1875rem;
+    width: 3.75rem;
+    background: $color-pink;
+  }
+}
+
+/*ul - services */
+
+.service__list {
+  min-height: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 5rem 0 0 0;
+}
+
+.service__list-item {
+  flex-basis: 23.125rem;
+  padding-left: 5.875rem;
+  background-repeat: no-repeat;
+  background-position: 1.875rem top;
+}
+
+.service__list-item-title {
+  @include font($monserat, 14px);
+
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 0.75rem 0;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.service__list-item-description {
+  @include font($roboto, 15px);
+
+  padding: 0;
+  margin: 0;
+  color: $color-gray;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.service__list-item--clock-icon {
+  background-image: url(../images/ico_1.svg);
+}
+
+.service__list-item--web-design-icon {
+  background-image: url(../images/ico_2.svg);
+}
+
+.service__list-item--creativity-icon {
+  background-image: url(../images/ico_3.svg);
+}
+
+.service__list-item--seo-icon {
+  background-image: url(../images/ico_4.svg);
+}
+
+.service__list-item--home-icon {
+  background-image: url(../images/ico_5.svg);
+}
+
+.service__list-item--digital-icon {
+  background-image: url(../images/ico_6.svg);
+}

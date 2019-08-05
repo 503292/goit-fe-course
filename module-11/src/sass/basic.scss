@@ -9,6 +9,7 @@ html {
   margin: 0;
   padding: 0;
 }
+
 *,
 *::before,
 ::after {
@@ -17,8 +18,8 @@ html {
 
 /*VISUAL-HIDDEN h1, h2 */
 .visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden {
   position: absolute;
 
   width: 1px;
@@ -35,9 +36,9 @@ input[type="radio"].visually-hidden {
 }
 
 body {
-  font-family: "Kaushan Script", cursive;
-  font-family: "Roboto", sans-serif;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
@@ -48,21 +49,21 @@ img {
 }
 
 .container {
-  width: 1200px; 
+  width: 1200px;
   margin: 0 auto;
 }
 
 /* CLEAR FIX  - тільки для Float*/
 .clearfix::after {
   display: table;
-  content: "";
+  content: '';
   clear: both;
 }
 
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
-

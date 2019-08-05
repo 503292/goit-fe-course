@@ -1,0 +1,120 @@
+.banner {
+  background: linear-gradient(
+      0deg,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    ),
+    url('../images/bg_baner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1.8125rem;
+  padding-bottom: 13.75rem;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .banner {
+    background-image: url('../images/bg_baner@2x.jpg');
+  }
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 9.375rem;
+}
+
+/* menu */
+
+.menu-list {
+  display: flex;
+  align-items: flex-end;
+  min-width: 38.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list__item {
+  @include font($monserat, 14px);
+
+  font-weight: 400;
+  color: $color-white;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding: 0.9375rem 0.9375rem;
+}
+
+.menu-list__link-text {
+  color: $color-white;
+  padding-bottom: 0.9375rem;
+  border-bottom: 0.1875rem solid transparent;
+
+  &:hover,
+  &:focus {
+    color: $color-yellow;
+    border-bottom: 0.1875rem solid $color-yellow;
+    transition: all 200ms;
+  }
+}
+
+.menu-list__link-icon {
+  fill: $color-white;
+
+  &:hover,
+  &:focus {
+    fill: $color-yellow;
+    transition: all 200ms;
+  }
+}
+
+/* title-site */
+
+.title-site {
+  max-width: 53.75rem;
+  margin: 0 auto 4.375rem;
+  padding: 0;
+}
+
+.banner__title-site {
+  @include font($monserat, 150px);
+
+  font-weight: 600;
+  color: $color-white;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+.title-site__desc {
+  @include font($kaushan, 72px);
+
+  display: block;
+  text-transform: none;
+  margin-bottom: 2.75rem;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.banner__btn {
+  @include font($monserat, 14px);
+
+  font-weight: 600;
+  color: $color-white;
+  max-width: 10rem;
+  text-transform: uppercase;
+  padding: 0.75rem 1.25rem;
+  background-color: transparent;
+  border: 0.1875rem solid $color-white;
+
+  &:hover,
+  &:focus {
+    background-color: $color-pink;
+  }
+}
