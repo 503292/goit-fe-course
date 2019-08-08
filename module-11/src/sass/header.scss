@@ -1,4 +1,4 @@
-.banner {
+.header {
   background: linear-gradient(
       0deg,
       rgba(252, 227, 138, 0.9) 0%,
@@ -16,7 +16,7 @@
   (-o-min-device-pixel-ratio: 2/1),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .banner {
+  .header {
     background-image: url('../images/bg_baner@2x.jpg');
   }
 }
@@ -36,6 +36,8 @@
   min-width: 38.75rem;
   margin: 0;
   padding: 0;
+
+
 }
 
 .menu-list__item {
@@ -79,7 +81,7 @@
   padding: 0;
 }
 
-.banner__title-site {
+.header__title-site {
   @include font($monserat, 150px);
 
   font-weight: 600;
@@ -102,7 +104,7 @@
   margin: 0 auto;
 }
 
-.banner__btn {
+.header__btn {
   @include font($monserat, 14px);
 
   font-weight: 600;
@@ -112,6 +114,7 @@
   padding: 0.75rem 1.25rem;
   background-color: transparent;
   border: 0.1875rem solid $color-white;
+  outline: 0 solid transparent;
 
   &:hover,
   &:focus {

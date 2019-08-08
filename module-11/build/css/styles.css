@@ -501,7 +501,7 @@ a {
   text-decoration: none;
 }
 
-.banner {
+.header {
   background: linear-gradient(0deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../images/bg_baner.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -568,7 +568,7 @@ a {
   padding: 0;
 }
 
-.banner__title-site {
+.header__title-site {
   font-family: "Montserrat", sans-serif;
   font-size: 150px;
   font-weight: 600;
@@ -591,7 +591,7 @@ a {
   margin: 0 auto;
 }
 
-.banner__btn {
+.header__btn {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -601,10 +601,11 @@ a {
   padding: 0.75rem 1.25rem;
   background-color: transparent;
   border: 0.1875rem solid #fff;
+  outline: 0 solid transparent;
 }
 
-.banner__btn:hover,
-.banner__btn:focus {
+.header__btn:hover,
+.header__btn:focus {
   background-color: #f38181;
 }
 
@@ -941,7 +942,7 @@ a {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .banner {
+  .header {
     background-image: url("../images/bg_baner@2x.jpg");
   }
 }
